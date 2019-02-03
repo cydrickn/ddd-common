@@ -1,0 +1,22 @@
+{
+    "name": "cydrickn/ddd-common",
+    "description": "PHP Interfaces provider for DDD, CQRS and ES.",
+    "keywords": ["interface", "interfaces", "php", "ddd", "cqrs", "es", "command", "query", "event", "sourcing", "domain driven design"],
+    "type": "library",
+    "require": {
+        "php": "^7.1",
+        "ramsey/uuid": "^3.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cydrickn\\DDD\\Common\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cydrick Nonog",
+            "email": "cydrick.dev@gmail.com"
+        }
+    ]
+}
