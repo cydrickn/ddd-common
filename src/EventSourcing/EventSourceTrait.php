@@ -51,8 +51,8 @@ trait EventSourceTrait
     public function initializeState(\Iterator $eventStream): void
     {
         foreach ($eventStream as $message) {
-            $this->playhead = $message->getPlayhead();
-            $this->handleEvent($message->getPayload());
+            $this->playhead = $message->playhead();
+            $this->handleEvent($message->payload());
         }
     }
 
