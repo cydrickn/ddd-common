@@ -4,7 +4,7 @@
     "keywords": ["interface", "interfaces", "php", "ddd", "cqrs", "es", "command", "query", "event", "sourcing", "domain driven design"],
     "type": "library",
     "require": {
-        "php": "^7.1",
+        "php": "^7.1||^8.0",
         "ramsey/uuid": "^3.8"
     },
     "autoload": {
